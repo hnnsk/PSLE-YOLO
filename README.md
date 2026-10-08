@@ -24,14 +24,8 @@ PSLE-YOLO/
 
 ## Installation
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/hnnsk/PSLE-YOLO.git
-cd PSLE-YOLO
-```
-
-### 2. Create the Environment
+### 1. Create the Environment
 
 We recommend using a separate Conda environment.
 
@@ -40,7 +34,7 @@ conda create -n psle-yolo python=3.10 -y
 conda activate psle-yolo
 ```
 
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 Install a compatible version of PyTorch according to your CUDA environment, then install the remaining dependencies:
 
