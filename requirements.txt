@@ -1,0 +1,42 @@
+# YOLOv8 Lite - Python 3.10 Environment Requirements
+# ===================================================
+# Core Dependencies (from ultralytics 8.2.57 pyproject.toml)
+# ===================================================
+numpy>=1.23.0,<2.0.0
+matplotlib>=3.3.0
+opencv-python>=4.6.0
+pillow>=7.1.2
+pyyaml>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+torch>=1.8.0
+torchvision>=0.9.0
+tqdm>=4.64.0
+psutil
+py-cpuinfo
+pandas>=1.1.4
+seaborn>=0.11.0
+ultralytics-thop>=2.0.0
+
+# ===================================================
+# Additional Dependencies (used in project code)
+# ===================================================
+shapely>=2.0.0
+
+# ===================================================
+# Training & Logging (pyproject.toml optional-dependencies: logging)
+# ===================================================
+tensorboard>=2.13.0
+
+# ===================================================
+# Export & Inference Tools (pyproject.toml optional-dependencies: export)
+# ===================================================
+onnx>=1.12.0
+onnxruntime>=1.12.0
+
+# ===================================================
+# Extra Utilities (pyproject.toml optional-dependencies: extra)
+# ===================================================
+albumentations>=1.4.6
+pycocotools>=2.0.7
+ipython
