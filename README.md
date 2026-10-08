@@ -8,13 +8,6 @@ Infrared tiny ship detection is challenging due to weak target responses, limite
 
 PSLE-YOLO is developed based on YOLOv8 to improve the detection of small and low-contrast ship targets. The framework combines spatial-preserving downsampling, efficient multi-scale feature fusion, local feature enhancement, and global feature selection to strengthen target representations while maintaining computational efficiency.
 
-The main components include:
-
-- **SCDM:** Preserves fine spatial information during downsampling.
-- **GFPN:** Enables efficient multi-scale feature interaction and propagation.
-- **DFEM:** Enhances discriminative features through lightweight local refinement.
-- **GFSM:** Selects informative global responses to suppress background interference.
-
 ## Project Structure
 
 ```text
