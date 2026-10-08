@@ -4,24 +4,12 @@
 # Parameters
 nc: 1 # number of classes
 scales:
-  # [depth, width, max_channels]
-  n: [0.33, 0.25, 1024]
+
 
 # YOLOv8.0n backbone
 backbone:
-  # [from, repeats, module, args]
-  - [-1, 1, Conv, [64, 3, 2]]
-  - [-1, 1, Conv, [128, 3, 2]]
-  - [-1, 3, C2f, [128, True]]
-  - [-1, 1, Conv, [256, 3, 2]]
-  - [-1, 6, C2f, [256, True]]
-  - [-1, 1, Conv, [512, 3, 2]]
-  - [-1, 6, C2f, [512, True]]
-  - [-1, 1, Conv, [1024, 3, 2]]
-  - [-1, 3, C2f, [1024, True]]
-  - [-1, 1, SPPF, [1024, 5]]
+
 
 # YOLOv8.0n head
 head:
-  - [[3, 5, 9], 1, GFPNNeck, [1.0, 1.0, [64, 128, 256], [64, 128, 256], 'silu', False, 'BasicBlock_3x3_Reverse', 'dfem', 16, False, True, 'maxpool', 'ema']]
-  - [-1, 1, Detect, [nc]]
+
