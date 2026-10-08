@@ -11,13 +11,10 @@
  # val images (relative to 'path') 5000 images
 #test: D:\pytorch\ultralytics-main\ultralytics-main\datasets\images\test
 #test: images/test # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
-path: /remote-home/lhkun/hnan/TISD_split # dataset root dir
-train: /remote-home/lhkun/hnan/TISD_split/images/train # train images (relative to 'path') 118287 images
-val: /remote-home/lhkun/hnan/TISD_split/images/val
+path: /remote-home/TISD_split # dataset root dir
+train: /remote-home/TISD_split/images/train # train images (relative to 'path') 118287 images
+val: /remote-home//TISD_split/images/val
 
-# path: /remote-home/lhkun/hnan/NUDT-SIRST-Sea
-# train: /remote-home/lhkun/hnan/NUDT-SIRST-Sea/images/train # train images (relative to 'path') 118287 images
-# val: /remote-home/lhkun/hnan/NUDT-SIRST-Sea/images/test
 
 # Classes
 names:
