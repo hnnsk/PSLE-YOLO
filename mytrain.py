@@ -8,7 +8,7 @@ if __name__ == "__main__":
     model_yaml = "/cfg/models/v8/myyolov8n-SPD-GFPN-DFEM-r16.yaml"
     # model_yaml = '/remote-home/hnan/yolov8_copy/ultralytics-main/ultralytics/cfg/models/v8/yolov8n-up2-detector.yaml'
     # data source guide
-    data_yaml = "/cfg/datasets/TISD.yaml"
+    data_yaml = "/cfg/datasets/NUDT.yaml"
     # pretrained weight
     # pre_model = r"D:\wj-bk1\ultralytics-main\ultralytics-main\ultralytics-main\runs\detect\train23\weights\best.pt"
     # Load a model
