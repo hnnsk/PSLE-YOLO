@@ -8,5 +8,5 @@ if __name__ == "__main__":
     model = YOLO(pth_path)  # load a custom model
 
     # Predict with the model
-    results = model(test_path, save=True, conf=0.2, name='TISD_ours_test', save_txt=True, line_width=1)  # predict image (not neccessory size 640)
+    results = model(test_path, save=True, conf=, name='TISD_ours_test', save_txt=True, line_width=1)  # predict image (not neccessory size 640)
 
