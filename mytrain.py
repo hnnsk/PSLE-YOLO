@@ -16,6 +16,6 @@ if __name__ == "__main__":
     # model = YOLO(model_yaml, task='detect').load(pre_model)  # build from YAML and transfer weights
     model = YOLO(model_yaml, task='detect')
     # Train the model    default train settings in D:\pytorch\ultralytics-main\ultralytics-main\ultralytics\cfg\default.yaml
-    results = model.train(data=data_yaml, cache=False, epochs=200, imgsz=640, batch=8, close_mosaic=0,workers=10,device=1,name='TISD_final',resume=False,amp=False)
+    results = model.train(data=data_yaml, cache=False, epochs=, imgsz=, batch=, close_mosaic=0,workers=10,device=1,name='TISD_final',resume=False,amp=False)
     ##detect##
 
