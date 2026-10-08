@@ -6,7 +6,7 @@ Official implementation of PSLE-YOLO, a lightweight object detection framework f
 
 Infrared tiny ship detection is challenging due to weak target responses, limited spatial information, and interference from clouds, coastlines, and complex sea clutter.
 
-PSLE-YOLO is developed based on YOLOv8 to improve the detection of small and low-contrast ship targets. The framework combines spatial-preserving downsampling, efficient multi-scale feature fusion, local feature enhancement, and global feature selection to strengthen target representations while maintaining computational efficiency.
+PSLE-YOLO is developed based on YOLOv8 to improve the detection of small and low-contrast ship targets. The framework combines spatial-preserving downsampling, efficient multi-scale feature fusion, local feature enhancement, and global feature selection to strengthen target representations.
 
 ## Project Structure
 
