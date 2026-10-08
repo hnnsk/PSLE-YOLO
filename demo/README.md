@@ -1,6 +1,6 @@
 ## Detection Demo
 
-Qualitative detection results of PSFE-YOLO
+Qualitative detection results of PSLE-YOLO
 on two infrared ship detection datasets.
 
 ### NUDT-SIRST-Sea
